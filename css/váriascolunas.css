@@ -1,0 +1,48 @@
+
+
+main {
+    background: linear-gradient(358deg, #58fcec, #e0777d, #3d52d5, #feea00, #0c8346);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 29s ease infinite;
+    -moz-animation: AnimationName 29s ease infinite;
+    animation: AnimationName 29s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 97%}
+    50%{background-position:100% 4%}
+    100%{background-position:0% 97%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 97%}
+    50%{background-position:100% 4%}
+    100%{background-position:0% 97%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 97%}
+    50%{background-position:100% 4%}
+    100%{background-position:0% 97%}
+}
+
+
+.grid-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    justify-items: center;
+   align-items: center;
+}
+
+.grid-container p {
+    border: solid black 3px;
+    padding: 1rem;
+    border-radius: 5%;
+}
+
+.grid-container img {
+    width: 100%;
+    border: solid red 3px;
+    padding: 1rem;
+    border-radius: 5%;
+}

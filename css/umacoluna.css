@@ -1,0 +1,35 @@
+main {
+    background: linear-gradient(269deg, #3185fc, #f7c548, #b80c09);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 21s ease infinite;
+    -moz-animation: AnimationName 21s ease infinite;
+    -o-animation: AnimationName 21s ease infinite;
+    animation: AnimationName 21s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.grid-container img{
+    width: 40px;
+    float: left;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
